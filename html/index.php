@@ -12,7 +12,7 @@ $mailer = new Swift_Mailer($transport);
 
 // Create a message
 $message = (new Swift_Message('Wonderful Subject'))
-    ->setFrom(['ee.da.83@mail.ru' => '12345'])
+    ->setFrom(['ee.da.83@mail.ru' => '123456'])
     ->setTo(['dinazyver@gmail.com'])
     ->setBody('Here is the message itself')
 ;
